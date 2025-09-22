@@ -11,6 +11,17 @@ html, body {
    overflow: hidden;
   
 }
+.title-front-page{
+    font-size:25px;
+    color:white;
+    text-align:center;
+}
+.para-front-page{
+     font-size:15px;
+    color:white;
+    text-align:center;
+    line-height:1.2;
+}
 
 .overlay {
   position: fixed;
@@ -128,3 +139,4 @@ ul li:hover {
 }
 
     
+
