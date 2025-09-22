@@ -15,12 +15,18 @@ html, body {
     font-size:25px;
     color:white;
     text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
 .para-front-page{
      font-size:15px;
     color:white;
     text-align:center;
     line-height:1.2;
+     display:flex;
+    align-items:center;
+    justify-content:center;
 }
 
 .overlay {
@@ -139,4 +145,5 @@ ul li:hover {
 }
 
     
+
 
