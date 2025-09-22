@@ -13,17 +13,19 @@ html, body {
 }
 .title-front-page{
     font-size:25px;
-    color:white;
+    color:red;
     text-align:center;
     display:flex;
+    font-weight:bold;
     align-items:center;
     justify-content:center;
 }
 .para-front-page{
      font-size:15px;
-    color:white;
+    color:red;
     text-align:center;
     line-height:1.2;
+    margin-top:12px;
      display:flex;
     align-items:center;
     justify-content:center;
@@ -145,5 +147,6 @@ ul li:hover {
 }
 
     
+
 
 
