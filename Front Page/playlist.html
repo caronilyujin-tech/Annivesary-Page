@@ -1,0 +1,438 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="playlist.css">
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Music Player</title>
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=f1kUZ9dKYuln&format=png&color=000000" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="playlist-heading"> Playlist For You 🎶</h1>
+    
+        <div class="row" >
+
+            
+       <div class="col-12 col-md-6 col-lg-4 mt-3">
+    <div class="music-container">
+         
+        <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/02/76/36/027636a93deb85e6f8988e00a6ac2497.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio1" src="audios/playlist-audio1.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause1" class="play-button">Play</button>
+                <input type="range" id="seek-bar1" value="0">
+                <span id="current-time1">0:00</span> / <span id="duration1">0:00</span>
+            </div>
+        </div>
+          <div class="hidden-card-audio-info">
+            <p>உன் பார்வையில் என் உலகம், ஒரு கண் சிமிட்டும் நேரம் கூட, காதல் முழுக்க எழுதப்பட்ட கவிதை. </p>
+        </div>
+       
+        </div> </div>
+
+       
+        <div class="col-12 col-md-6 col-lg-4 mt-4 ">
+        <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/12/e2/4a/12e24abff07a040e06fe0d6d887ffa1c.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio2" src="audios/playlist-audio2.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause2" class="play-button">Play</button>
+                <input type="range" id="seek-bar2" value="0">
+                <span id="current-time2">0:00</span> / <span id="duration2">0:00</span>
+            </div>
+        </div>
+         <div class="hidden-card-audio-info">
+            <p>மலா்கள் கேட்டேன்
+வனமே தந்தனை
+தண்ணீா்க் கேட்டேன்
+அமிர்தம் தந்தனை
+
+</p>
+        </div>
+
+    </div></div>
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/40/5e/43/405e436e623472a3ebd5f823cbd514c6.jpg" class="couple-image" />
+            
+            
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio3" src="audios/playlist-audio3.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause3" class="play-button">Play</button>
+                <input type="range" id="seek-bar3" value="0">
+                <span id="current-time3">0:00</span> / <span id="duration3">0:00</span>
+            </div>
+        </div>
+         <div class="hidden-card-audio-info">
+            <p>மங்கை என்னும் நான் இம் மானுடத்தில் இத்தனை ஆண்கள்  இருத்தும் உன்னையே என் மாதவநாகா   ஏற்றுக்கொண்டது    நான் செய்த மாதவம் ஆகும்</p>
+        </div>
+
+    </div></div>
+    
+        <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/1200x/52/06/81/5206817ee7d3ebc8f4be185e6763e9bd.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio4" src="audios/playlist-audio4.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause4" class="play-button">Play</button>
+                <input type="range" id="seek-bar4" value="0">
+                <span id="current-time4">0:00</span> / <span id="duration4">0:00</span>
+            </div>
+        </div>
+ <div class="hidden-card-audio-info">
+            <p>  அவளும் நானும்…
+அமுதும் தமிழும்…
+நானும் அவளும்…
+உயிரும் உடம்பும்…
+நரம்பும் யாழும்…
+பூவும் மணமும்…
+
+</p>
+        </div>
+    </div></div> 
+
+ 
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/47/43/14/4743141c23e11a6ffeccd0590e59614c.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio5" src="audios/playlist-audio5.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause5" class="play-button">Play</button>
+                <input type="range" id="seek-bar5" value="0">
+                <span id="current-time5">0:00</span> / <span id="duration5">0:00</span>
+            </div>
+        </div>
+         <div class="hidden-card-audio-info">
+            <p>போதவில்லை என்றாலும், உன் அருகில் இருந்தால் போதும், என் வாழ்வு முழுக்க நீயே.</p>
+        </div>
+
+    </div>
+</div>
+
+
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/b3/86/19/b3861970b545c1baf1a4e8f4c884f345.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio6" src="audios/playlist-audio6.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause6" class="play-button">Play</button>
+                <input type="range" id="seek-bar6" value="0">
+                <span id="current-time6">0:00</span> / <span id="duration6">0:00</span>
+            </div>
+        </div>
+         <div class="hidden-card-audio-info">
+            <p>நீ பேசும் வார்த்தைகள் சேகரித்து…
+செய்வேன் அன்பே ஓர் அகராதி…
+நீ தூங்கும் நேரத்தில் தூங்காமல்…
+பார்ப்பேன் தினம் உன் தலைகோதி…</p>
+    </div></div>
+    </div>
+
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/1200x/db/eb/20/dbeb20502e613b17359c8c15e0d3a66c.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio7" src="audios/playlist-audio7.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause7" class="play-button">Play</button>
+                <input type="range" id="seek-bar7" value="0">
+                <span id="current-time7">0:00</span> / <span id="duration7">0:00</span>
+            </div>
+        </div>
+        <div class="hidden-card-audio-info">
+            <p>தாங்க தாங்க பாரங்கள் காலம் தந்தவை…
+ காண வேண்டும் ஆயிரம் கோடி புன்னகை…
+
+தாங்கிக்கொள் என் கண்மணி…
+ சாய்ந்து கொள் என் தோளில் நீ…</p>
+        </div>
+    </div></div>
+      
+
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/1200x/9e/91/eb/9e91eb85f896212dccaf39f0682c985c.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio8" src="audios/playlist-audio8.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause8" class="play-button">Play</button>
+                <input type="range" id="seek-bar8" value="0">
+                <span id="current-time8">0:00</span> / <span id="duration8">0:00</span>
+            </div>
+        </div>
+        <div class="hidden-card-audio-info">
+            <p>மண்ணில் ஏன் ஏன் ஏன் நீயும் வந்தாய்…
+எந்தன் பெண்மை பூப்பூக்கவே…
+நான் பிறக்கும் முன்னே அட நீ பிறந்ததேன்…
+நான் பிறக்கும் போது நீ உந்தன் கையில்…
+ன்னை ஏந்தத்தானோ…</p>
+        </div>
+    </div></div>
+
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/1200x/1f/d8/65/1fd865aa3fbd7ca7f3c9098fd1b6689c.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio9" src="audios/playlist-audio9.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause9" class="play-button">Play</button>
+                <input type="range" id="seek-bar9" value="0">
+                <span id="current-time9">0:00</span> / <span id="duration9">0:00</span>
+            </div>
+        </div>
+         <div class="hidden-card-audio-info">
+            <p> உன்னை தாண்டி எதையும்…
+என்னால் யோசனை செய்ய…
+முடியாதே முடியாதே…</p>
+        </div>
+
+    </div></div>
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/d0/b4/f9/d0b4f9887578161f8612a47b3abecd45.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio10" src="audios/playlist-audio10.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause10" class="play-button">Play</button>
+                <input type="range" id="seek-bar10" value="0">
+                <span id="current-time10">0:00</span> / <span id="duration10">0:00</span>
+            </div>
+        </div>
+       <div class="hidden-card-audio-info">
+            <p>அடை மழை வரும் அதில் நனைவோமே…
+குளிர் காய்ச்சலோடு சிநேகம்…
+ஒரு போர்வைக்குள் இரு தூக்கம்…
+குளு குளு பொய்கள் சொல்லி என்னை வெல்வாய்…
+அது தெரிந்தும் கூட அன்பே…
+மனம் அதையேதான் எதிர்பார்க்கும்…
+
+</p>
+        </div>
+    </div></div>
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/93/17/d3/9317d3d78427943671319605b58e13a3.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio11" src="audios/playlist-audio11.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause11" class="play-button">Play</button>
+                <input type="range" id="seek-bar11" value="0">
+                <span id="current-time11">0:00</span> / <span id="duration11">0:00</span>
+            </div>
+        </div>
+         <div class="hidden-card-audio-info">
+            <p>உன்னாலே என் ஜீவன், என்னாலும் உன்னில் வாழும், காதல் என்றால் நீயே.</p>
+        </div>
+
+    </div></div>
+
+
+    <div class="col-12 col-md-6 col-lg-4 mt-4">
+    <div class="music-container">
+         <div class=" top-icons ">
+            <div class="icon-wrapper left-icon">
+                <i class="fa fa-chevron-left music-icon"></i>
+            </div>
+            <div class="icon-wrapper right-icon ">
+                <i class="fa fa-list music-icon"></i>
+            </div>
+
+
+        </div>
+        <div class="image-placed">
+            <img src="https://i.pinimg.com/736x/96/0c/e5/960ce59d973956111cddb14d04580e31.jpg" class="couple-image" />
+        </div>
+
+        <div class="audio-player">
+            <audio id="trackaudio12" src="audios/playlist-audio12.mp3"></audio>
+            <div class="controls">
+                <button id="play-pause12" class="play-button">Play</button>
+                <input type="range" id="seek-bar12" value="0">
+                <span id="current-time12">0:00</span> / <span id="duration12">0:00</span>
+            </div>
+        </div>
+         <div class="hidden-card-audio-info">
+           <p>கன்னம் சுருங்கிட நீயும்…
+மீசை நரைத்திட நானும்…
+வாழ்வின் கரைகளைக் காணும்…
+காலம் அருகினில்தானோ…</p>
+    </div>
+
+    </div></div>
+
+
+
+
+       
+    </div>
+    </div>
+<script src="playlist.js"></script>
+</body>
+
+</html>

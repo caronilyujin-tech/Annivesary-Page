@@ -1,0 +1,45 @@
+html,body{
+    margin:0;
+    padding:0;
+    
+    font-family: 'Poppins', sans-serif;
+   background-color: #9b3a02;
+    object-fit: cover;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.9rem;
+    font-weight: 400;
+    color:#2c0202;
+    text-align: center;
+
+}
+.lover-letter-page{
+width:500px;
+height:1340px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+padding:20px;   
+margin:50px auto;
+background-color: #a85a2d;
+border-radius:20px;
+}
+.greeting-msg{
+    font-family: 'great vibes', cursive;
+    font-size:2.9rem;
+    
+    color:#fdf6e3;
+}
+.body-of-content{
+    color:#fdd6e3;
+    font-size:1.2rem;
+    line-height:1.6;
+    margin-top:20px;
+font-family: "cormorant garamond", serif;
+
+}
+.End-statement{
+    font-family:'Allura',cursive;
+    font-size: 24px;
+    color:white;
+    text-align: right;
+}
